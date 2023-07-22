@@ -1,0 +1,118 @@
+.main-welcome-container {
+  margin: 10px 7%;
+}
+
+.welcome-right-container {
+  margin-left: 37%;
+  position: absolute;
+}
+
+.welcome-details-main {
+  max-width: 550px;
+  width: 100%;
+  position: absolute;
+  padding: 50px;
+  left: 17%;
+  margin: 50px 0 0 0;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  border-radius: 10px;
+  background-color: white;
+}
+.res-welcome-details-main {
+  max-width: 550px;
+  width: 100%;
+  padding: 50px;
+  left: 17%;
+  margin: 50px 0 0 0;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  border-radius: 10px;
+  background-color: white;
+  display: none;
+}
+.ytifram {
+  width: 100%;
+  min-width: 650px;
+  position: absolute;
+  height: 355px;
+}
+@media (max-width: 1200px) {
+  .ytifram {
+    width: 100%;
+    min-width: 500px;
+    position: absolute;
+    height: 350px;
+  }
+
+  .welcome-details-main {
+    max-width: 450px;
+    width: 100%;
+    position: absolute;
+    padding: 50px;
+    left: 13%;
+    margin: 50px 0 0 0;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 15px;
+  }
+}
+/*responsive*/
+@media (max-width: 900px) {
+  .ytifram {
+    width: 100%;
+    min-width: 500px;
+    height: 300px;
+  }
+
+  .welcome-pera {
+    font-size: 10px;
+  }
+  .welcome-topic {
+    font-size: 12px;
+  }
+  .res-welcome-details-main{
+display: block;
+margin: 300px 0 0 0;
+
+  }
+  .welcome-details-container{
+    display: none;
+  }
+  .welcome-right-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .res-welcome-details-main {
+    max-width: 550px;
+    width: 100%;
+    padding: 20px;
+   margin-left: auto;
+   margin-right: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    border-radius: 10px;
+    background-color: white;
+
+  }
+  .res-welcome-topic{
+    font-size: 20px;
+  }
+}
+@media (max-width: 670px) {
+  .welcome-iframe-container {
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+  }
+}
+
+@media (max-width: 570px) {
+  .ytifram {
+    width: 100%;
+    min-width: 100px;
+    height: 300px;
+  }
+}

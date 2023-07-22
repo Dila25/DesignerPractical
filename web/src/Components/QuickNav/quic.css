@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.quic-container{
+  height: 100%;
+  margin: 50px 7% 100px 7%;
+}
+
+.quic-card{
+  width: 250px;
+  height: 200px;
+  cursor: pointer;
+  padding: 25px;
+  display: flex; /* Added */
+  flex-direction: column; /* Added */
+  justify-content: center; /* Added */
+  align-items: center; /* Added */
+}
+.quic-card:hover {
+  background-color: #1D5A98;
+  color: white;
+}
+.quic-icon{
+  font-size: 50px;
+  color: #1D5A98;
+  margin: 0 0 20px 0;
+}
+
+.quic-card:hover .quic-icon {
+  color: white;
+}
+
+.quic-card:hover .quic-h1{
+  color: white;
+}
+.quic-h1{
+  color: rgb(129, 128, 128);
+  font-size: 15px;
+  text-align: center;
+}

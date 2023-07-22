@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.hom-map {
+  width: 100%;
+  height: 100%;
+}
+
+.map-location-left-container {
+  width: 700px;
+  height: 530px;
+}
+.map-container {
+  margin: 10px 14%;
+}
+.location-name {
+  font-size: 20px;
+  padding: 10px 0 10px 0;
+}
+.location-number {
+  font-size: 20px;
+  padding: 10px 0 10px 0;
+}
+
+.map-location-1st {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.map-title {
+  text-align: center;
+  padding: 10px 0 20px 0;
+}
+
+.map-main-container {
+  border: 2px solid gainsboro;
+
+  padding: 10px 20px 0 20px;
+}
+.map-location-right-container {
+  border-bottom: 2px solid gainsboro;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.map-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  cursor: pointer;
+}

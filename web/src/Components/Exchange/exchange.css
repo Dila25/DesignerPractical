@@ -1,0 +1,34 @@
+.exchange-image{
+    width: 30px;
+    height: 15px;
+}
+.c-name{
+    font-size: 10px;
+    text-align: center;
+}
+.exchange-left{
+    border-right: 2px solid gainsboro;
+    padding: 0 5px 0 0;
+    
+}
+.exchange-card{
+    cursor: pointer;
+}
+.exchange-price{
+    font-size: 15px;
+    padding: 0 0 0 5px;
+
+}
+
+.exchange-container{
+    margin: 50px 10%;
+}
+.carousel-item:nth-child(1) {
+    display: none;
+  }
+
+  /* exchange.css */
+.react-multi-carousel__arrow {
+    display: none !important;
+  }
+  

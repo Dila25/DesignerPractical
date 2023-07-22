@@ -1,0 +1,146 @@
+.slider-box {
+  background-image: url(./image/bk.png);
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+}
+
+.slider-cont-box {
+  position: absolute;
+  color: white;
+  align-items: center;
+  top: 45%;
+  right: 70%;
+  font-size: 25px;
+}
+
+.dropdown-slid {
+  background-color: white;
+  width: 100%;
+  height: 46px;
+  align-items: center;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+/* Style the dropdown button */
+.dropbtnb-slid {
+  padding: 2px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+}
+
+.hum-name {
+  color: #5b5959;
+  font-size: 20px;
+  padding: 0 10px 20px 10px;
+  text-align: center;
+}
+/* Style the dropdown content (hidden by default) */
+.dropdown-content-slid {
+  display: block;
+  position: relative;
+  min-width: 260px;
+  font-size: 15px;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  bottom: 355px;
+  left: 0;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content-slid .slid-a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.slid-a:hover {
+  font-weight: bold;
+}
+
+.drop-hum {
+  font-size: 25px;
+  color: #d9120c;
+  margin: 6px 0 0 40px;
+}
+
+/*icon*/
+.slider-shoshal-icon {
+  position: fixed;
+  top: 30%;
+  right: 0%;
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  z-index: 1000;
+}
+
+
+.slider-shoshal-icon,.shosh-icon-a {
+  text-decoration: none;
+  font-size: 15px;
+  margin: 2px 0;
+  text-align: left;
+  padding: 10px 0 10px 10px;
+  border-radius: 50px 0px 0px 50px;
+  transform: translate(100px, 0px);
+  transition: all 0.6s;
+}
+
+.shosh-icon-a {
+  background-color: rgba(255, 255, 255, 0.577);
+  color: black;
+}
+
+.slider-shoshal-icon .shosh-icon-a .icon-i{
+    margin-right: 25px;
+    transition: all 0.6s;
+}
+
+.slider-shoshal-icon,.shosh-icon-a:hover{
+    transform: translate(0px, 0px);
+}
+.slider-shoshal-icon .shosh-icon-a:hover .icon-i{
+    transform: rotate(360deg);
+}
+.icon-i{
+   border-radius: 50%;
+   background-color: white;
+}
+.fb{
+    color: #3B5998;
+    font-size: 25px;
+ }
+
+ .tw{
+  color: #55ACEE;
+  font-size: 25px;
+ }
+
+ .li{
+ color: #007BB5;
+ font-size: 25px;
+ }
+
+ .yt{
+ color: #BB0000;
+ font-size: 25px;
+ }
+
+ .in{
+color: #EB7BB7;
+font-size: 25px;
+ }
+
+ .wht{
+ color: #25D366;
+ font-size: 25px;
+ }
